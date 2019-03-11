@@ -1,0 +1,2 @@
+scp /Volume/6.2.1/sf/reports/* fmcbackup@x.x.x.x:/corp/cisco/Firepower/
+
