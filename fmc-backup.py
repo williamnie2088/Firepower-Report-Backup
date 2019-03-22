@@ -22,5 +22,6 @@ for devices in devices_list:
     }
  
     net_connect = ConnectHandler(**linux_server)
-    output = net_connect.send_command(commands_list)
+    output = net_connect.send_command(['one command'])
+    output = net_connect.send_config_set(commands_list)
     print (output)
